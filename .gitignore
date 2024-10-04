@@ -1,0 +1,53 @@
+# Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environments (Linux/macOS/Windows)
+env/
+venv/
+.venv/
+ENV/
+*.env
+*.venv
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store   # macOS specific
+
+# Python dependencies
+*.egg
+*.egg-info
+dist/
+build/
+.eggs/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Linting outputs
+pylint-output.txt
+coverage/
+
+# Test and coverage results
+.pytest_cache/
+htmlcov/
+.coverage
+.tox/
+
+# Docker files
+*.db
+docker-compose.yml
+
+# gRPC generated files
+*_pb2.py
+*_pb2_grpc.py

@@ -1,0 +1,12 @@
+# server libraries
+grpcio
+grpcio-tools
+protobuf
+
+# testing
+pytest
+pytest-cov
+
+# linting
+flake8
+pylint
